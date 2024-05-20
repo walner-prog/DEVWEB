@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar SVG de Tailwind CSS</title>
+    <style>
+        .tailwind-icon {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background: url('svg/tailwind-css.svg') no-repeat center center;
+            background-size: contain;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <!-- Opción 1: Usar una etiqueta <img> -->
+    <div class="interes">
+        <img src="svg/tailwind-css.svg" style="text-align: center;" alt="Tailwind CSS" width="20px"; height: 24px;> <br>
+        <span class="lenguajes">Tailwind CSS</span>
+    </div>
+
+    <!-- Opción 2: Incrustar el SVG directamente en el HTML -->
+    <div class="interes">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <!-- Aquí pega el contenido del archivo tailwind.svg -->
+        </svg>
+        <span class="lenguajes">Tailwind CSS</span>
+    </div>
+
+    <!-- Opción 3: Usar CSS para establecer la imagen de fondo -->
+    <div class="interes">
+        <span class="tailwind-icon"></span>
+        <span class="lenguajes">Tailwind CSS</span>
+    </div>
+</body>
+</html>

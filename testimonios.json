@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "Carlos  Davila",
+        "testimonio": "Muy profesionales y eficientes en su trabajo.",
+        "imagen": "img/foto.png"
+    },
+    {
+        "nombre": "Ana Gómez",
+        "testimonio": "Gran experiencia, los resultados fueron increíbles.",
+        "imagen": "ana.jpg"
+    },
+    {
+        "nombre": "Carlos Martinez",
+        "testimonio": "Muy profesionales y eficientes en su trabajo.",
+        "imagen": "carlos.jpg"
+    },
+    {
+        "nombre": "Luisa Fernandez",
+        "testimonio": "Estoy muy contenta con los servicios recibidos. ¡Gracias!",
+        "imagen": "luisa.jpg"
+    },
+    {
+        "nombre": "Pedro Ramirez",
+        "testimonio": "Excelente equipo de trabajo, muy recomendable.",
+        "imagen": "pedro.jpg"
+    }
+]
