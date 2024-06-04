@@ -532,7 +532,7 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(192, 217, 32, 1), rgba(202, 220, 35, 0.8));
+    background: linear-gradient(rgb(0, 0, 0), rgba(235, 255, 56, 0.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1027,4 +1027,18 @@ footer .redes a:hover {
 .item.izq:hover .circuloi, .item.der:hover .circulod {
     background-color: #aabf17; /* Cambio de color del círculo en hover */
     transform: scale(1.2);
+}
+
+/* Clase para mostrar un elemento */
+.show {
+    display: block !important; /* !important para sobrescribir otras reglas */
+    opacity: 1; /* Hacer el elemento completamente visible */
+    transition: opacity 0.5s ease; /* Transición suave de la opacidad */
+}
+
+/* Clase para ocultar un elemento */
+.hide {
+    display: none !important; /* !important para sobrescribir otras reglas */
+    opacity: 0; /* Hacer el elemento completamente transparente */
+    transition: opacity 0.5s ease; /* Transición suave de la opacidad */
 }

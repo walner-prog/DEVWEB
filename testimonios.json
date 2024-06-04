@@ -1,27 +1,33 @@
 [
     {
         "nombre": "Carlos  Davila",
-        "testimonio": "Muy profesionales y eficientes en su trabajo.",
-        "imagen": "img/foto.png"
+        "testimonio": "Muy profesional y eficiente en su trabajo.",
+        "imagen": "img/png-user.png"
     },
     {
         "nombre": "Ana Gómez",
         "testimonio": "Gran experiencia, los resultados fueron increíbles.",
-        "imagen": "ana.jpg"
+        "imagen": "img/png-user.png"
     },
-    {
-        "nombre": "Carlos Martinez",
-        "testimonio": "Muy profesionales y eficientes en su trabajo.",
-        "imagen": "carlos.jpg"
-    },
+    
     {
         "nombre": "Luisa Fernandez",
         "testimonio": "Estoy muy contenta con los servicios recibidos. ¡Gracias!",
-        "imagen": "luisa.jpg"
+        "imagen": "img/png-user.png"
     },
     {
-        "nombre": "Pedro Ramirez",
-        "testimonio": "Excelente equipo de trabajo, muy recomendable.",
-        "imagen": "pedro.jpg"
+        "nombre": "Luis Martínez",
+        "testimonio": "El sitio web quedó perfecto y en el tiempo acordado.",
+        "imagen": "img/png-user.png"
+    },
+    {
+        "nombre": "María Rodríguez",
+        "testimonio": "Muy profesional, captó exactamente lo que necesitábamos para nuestro sistema.",
+        "imagen": "img/png-user.png"
+    },
+    {
+        "nombre": "José Hernández",
+        "testimonio": "El desarrollo del sitio fue impecable, superó nuestras expectativas.",
+        "imagen": "img/png-user.png"
     }
 ]

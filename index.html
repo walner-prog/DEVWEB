@@ -21,11 +21,12 @@
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
 
     <link href="img/mi-logo-oficial.ico" rel="icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <link rel="stylesheet" href="estilo.css">
+ 
 </head>
 <body>
     <!-- MENU ENCABEZADO -->
@@ -52,7 +53,7 @@
 
     <!-- SECCION INICIO -->
     <section   id="inicio" class="inicio">
-        <div data-aos="fade-up" data-aos-duration="1000" class="contenido-banner">
+        <div data-aos="fade-up" data-aos-duration="1000" class="contenido-banner" data-aos-once="true">
             <div class="contenedor-img">
                 <img src="img/user.jpeg" alt="">
             </div>
@@ -73,7 +74,7 @@
 
     <!-- SECCION SOBRE MI -->
     <section   id="sobremi" class="sobremi">
-        <div data-aos="fade-up" data-aos-duration="1000"  class="contenido-seccion">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"  class="contenido-seccion">
             <h2>Sobre <span class="colorh3h2">Mí</span> </h2>
             <p >Hola mi nombre es<span> Carlos Alavarez,</span>   Soy un Desarrollador  con experiencia en Frontend, Backend, y administración de bases de datos.
                  En el frontend, utilizo HTML, CSS,  JavaScript y  tecnologías como React y Vue.js, con experiencia en frameworks como Tailwind CSS, Materialize y Bootstrap para crear interfaces 
@@ -189,7 +190,7 @@
 
     <!-- SECCION SKILLS -->
   <section   class="skills" id="skills">
-    <div data-aos="fade-up" data-aos-duration="1000" class="contenido-seccion">
+    <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="contenido-seccion">
         <h2>Habilidades <span class="titlecurriculun">Técnicas</span> </h2>
         <div class="fila">
             <!-- Habilidades Técnicas -->
@@ -287,7 +288,7 @@
 
     <!-- SECCION CURRICULUM -->
     <section  id="curriculum" class="curriculum">
-        <div data-aos="fade-up" data-aos-duration="1000" class="contenido-seccion">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="contenido-seccion">
             <h2>Curri<span class="titlecurriculun">culum</span> </h2>
             <div class="fila">
                 <div class="col izquierda">
@@ -350,49 +351,49 @@
 
     <!-- SECCION PORTFOLIO -->
     <section  id="portfolio" class="portfolio">
-        <div data-aos="fade-up" data-aos-duration="1000" class="contenido-seccion">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="contenido-seccion">
             <h2>PORT<span id="portafolio">FOLIO</span> </h2>
             <div class="galeria">
-                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500" class="proyecto">
+                <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500" data-aos-once="true" class="proyecto">
                     <img src="img/dasfar.png" alt="">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Sistema Administrativo Farmacéutico</h3>
+                        <p>Interfaz</p>
                     </div>
-                </div>
-                <div data-aos="fade-up" data-aos-duration="1500" class="proyecto">
+                </div>  
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" class="proyecto">
                     <img src="img/inter.png" alt="">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Blog de Temas Tecnológicos</h3>
+                        <p>Interfaz</p>
                     </div>
                 </div>
-                <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" class="proyecto">
+                <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" data-aos-once="true" class="proyecto">
                     <img src="img/caps2.png" alt="">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Sistema Administrativo de Agua Potable</h3>
+                        <p>Interfaz</p>
                     </div>
                 </div>
-                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="proyecto">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" data-aos-once="true" class="proyecto">
                     <img src="img/planeta.png" alt="">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Blog de Temas del medio ambiente.</h3>
+                        <p>Interfaz</p>
                     </div>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1500" class="proyecto">
-                    <img src="img/p5.jpg" alt="">
+                <div data-aos="fade-up" data-aos-duration="1500" class="proyecto" data-aos-once="true">
+                    <img src="img/api.png" alt="">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>APIs RESTful básica de productos </h3>
+                        <p>Interfaz</p>
                     </div>
                 </div>
-                <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" class="proyecto">
-                    <img src="img/p6.jpg" alt="">
+                <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500" data-aos-once="true" class="proyecto">
+                    <img src="img/quiz.png" alt="quiz educativo">
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Herramienta Educativa Interactiva  </h3>
+                        <p>Interfaz</p>
                     </div>
                 </div>
             </div>
@@ -401,7 +402,7 @@
 
     <!-- SECCION CONTACTO -->
     <section  id="contacto" class="contacto">
-        <div data-aos="fade-up" data-aos-duration="1500" class="contenido-seccion">
+        <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true" class="contenido-seccion">
             <p class="custom-contac">
                 contacto <i class="fa-solid fa-solid fa-envelope"></i>
                 <span class="overlay"></span>
@@ -426,20 +427,20 @@
                 <div class="col-tes">
                     <div class="testimonios-slider">
                         <div class="swiper-container">
-                            <div class="swiper-wrapper" id="testimonios-wrapper">
+                            <div class="swiper-wrapper mb-5" id="testimonios-wrapper">
                                 <!-- Tarjetas de testimonios se insertarán aquí -->
                             </div>
                         </div>
-                        <br> <br>
-                        <!-- Add Arrows -->
-                        <div class="swiper-navigation">
-                            <div class="swiper-button-prev"></div>
-                           
-                            <div class="swiper-button-next"></div>
-                        </div>
+                       
+                       <!-- Add Arrows -->
+                    <div class="swiper-navigation mt-5">
+                        <div class="swiper-button-prev"></div>
+                       
+                        <div class="swiper-button-next"></div>
+                    </div>
                     </div>
                       
-                   
+                    
                 </div>
                 
                 
@@ -511,7 +512,10 @@
       const form = event.target;
       const formData = new FormData(form);
   
-      // Reemplazar Object.fromEntries con reduce para mayor compatibilidad
+      // Capturar el nombre del usuario del formulario
+      const userName = formData.get('name');
+  
+      // Convertir formData a un objeto JSON
       const jsonData = {};
       formData.forEach((value, key) => {
         jsonData[key] = value;
@@ -528,6 +532,8 @@
   
         if (response.ok) {
           const confirmation = document.getElementById('confirmation');
+          // Concatenar el nombre del usuario en la notificación
+          confirmation.textContent = `¡Gracias, ${userName}! Tu mensaje ha sido enviado.`;
           confirmation.style.display = 'block';
           confirmation.classList.add('show');
           confirmation.classList.remove('hide');
@@ -539,7 +545,7 @@
             setTimeout(() => {
               confirmation.style.display = 'none';
             }, 500); // Esperar a que la animación termine antes de ocultar el elemento
-          }, 3000);
+          }, 8000);
         } else {
           alert('Hubo un problema con el envío. Inténtalo de nuevo.');
         }
