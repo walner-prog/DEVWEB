@@ -498,9 +498,9 @@
             <a href="https://www.linkedin.com/in/carlos-alvarez-422512266/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
             <a href="mailto:tuemail@gmail.com" class="gmail-icon" target="_blank"><i class="fa-solid fa-envelope"></i></a>
         </div>
-        <div id="share-buttons">
+        <div id="share-buttons" class="redes">
             <p>Comparte en tus redes favoritas:</p>
-            <button onclick="shareOnFacebook()" class="btn btn-primary w-20"><i class="fab fa-facebook-square fa-lg"></i></button>
+            <button onclick="shareOnFacebook()" class="btn btn-primary  w-20"><i class="fab fa-facebook-square fa-lg "></i></button>
             <button onclick="shareOnWhatsApp()" class="btn btn-success w-20"><i class="fab fa-whatsapp-square fa-lg"></i></button>
             <button onclick="shareOnLinkedIn()" class="btn btn-danger w-20"><i class="fab fa-linkedin fa-lg"></i></button>
             <button onclick="shareOnTwitter()" class="btn btn-info w-20"><i class="fab fa-twitter-square fa-lg"></i></button>
@@ -614,7 +614,8 @@
         // Función para compartir en WhatsApp
         function shareOnWhatsApp() {
             const quizUrl = encodeURIComponent(window.location.href);
-            const whatsappUrl = `https://api.whatsapp.com/send?text=¡Echa un vistazo a este increíble quiz! ${quizUrl}`;
+            const whatsappUrl = `https://api.whatsapp.com/send?text=¡Te invito a visitar mi portafolio en línea! Aquí podrás ver algunos de mis trabajos y proyectos recientes. Puedes acceder a mi portafolio haciendo clic en el siguiente enlace:
+ ${quizUrl}`;
             window.open(whatsappUrl, '_blank');
         }
 
