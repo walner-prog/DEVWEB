@@ -5,3 +5,26 @@ https://anywhere.epam.com/es/find-me-a-job
 https://anywhere.epam.com/es/blog/preguntas-entrevista-software-desarrollador
 
 https://talently.tech/blog/preguntas-de-entrevista-para-fullstack/
+   
+
+<div class="col-lg-3 col-md-4 col-sm-6 mb-2 mb-sm-0">
+                <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5 class="card-title mb-0 text-secondary">Desafía tus <br><span class="titulo-publicidad">Conocimientos</span></h5>
+                        <span><i class="fas fa-code card-link"></i></span>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-muted">
+                            Descubre nuevas áreas de conocimiento y desafía tus límites al responder preguntas estimulantes en este quiz educativo.
+                        </p>
+                        <p class="card-text text-muted">
+                            <img src="img/quiz.png" class="img-thumbnail" alt="">
+                        </p>
+                        <div class="mt-3 d-flex justify-content-between align-items-center">
+                            <i class="fas fa-heart card-link"></i>
+                            <a href="https://quiz-educativo.netlify.app/" class="btn btn btn-sm card-link fs-6" data-toggle="collapse" data-target="#more1">Visitar el sitio web</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
