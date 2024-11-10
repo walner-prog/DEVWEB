@@ -1056,3 +1056,12 @@ footer .redes a:hover {
     opacity: 0; /* Hacer el elemento completamente transparente */
     transition: opacity 0.5s ease; /* Transición suave de la opacidad */
 }
+
+.text-indigo{
+    color: rgb(0, 36, 89);
+}
+
+
+.text-indigo:hover{
+    color: rgb(12, 21, 36);
+}
